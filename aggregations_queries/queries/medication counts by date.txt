@@ -1,0 +1,10 @@
+
+what are the number of ADR events reported by the FDA and twitter on January 2015 for Tamiflu?
+
+It should consider the brand and generic names associated to tamiflu.
+
+ source | count
+--------+-------
+ FDA    |   116
+ Tweets |   111
+(2 rows)

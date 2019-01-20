@@ -1,0 +1,84 @@
+list which medication_medication names are related to which medication_names (because of fda_links)
+
+
+ medication_name | medication_name
+-----------------+-----------------
+ actonel         | actonel
+ albuterol       | albuterol
+ alendronate     | alendronate
+ alendronate     | fosamax
+ apixaban        | apixaban
+ apixaban        | eliquis
+ avelox          | avelox
+ baclofen        | baclofen
+ boniva          | boniva
+ bystolic        | bystolic
+ canagliflozin   | canagliflozin
+ canagliflozin   | invokana
+ cipro           | cipro
+ denosumab       | denosumab
+ dronedarone     | dronedarone
+ duloxetine      | duloxetine
+ effient         | effient
+ eliquis         | apixaban
+ eliquis         | eliquis
+ fluoxetine      | fluoxetine
+ fosamax         | alendronate
+ fosamax         | fosamax
+ fycompa         | fycompa
+ geodon          | geodon
+ geodon          | ziprasidone
+ invokana        | canagliflozin
+ invokana        | invokana
+ januvia         | januvia
+ lamictal        | lamictal
+ lamictal        | lamotrigine
+ lamotrigine     | lamictal
+ lamotrigine     | lamotrigine
+ latuda          | latuda
+ levaquin        | levaquin
+ linagliptin     | linagliptin
+ liraglutide     | liraglutide
+ liraglutide     | victoza
+ livalo          | livalo
+ memantine       | memantine
+ memantine       | namenda
+ metoprolol      | metoprolol
+ namenda         | memantine
+ namenda         | namenda
+ nasonex         | nasonex
+ nesina          | nesina
+ nexium          | nexium
+ ofloxacin       | ofloxacin
+ olanzapine      | olanzapine
+ onglyza         | onglyza
+ paroxetine      | paroxetine
+ pradaxa         | pradaxa
+ pregabalin      | pregabalin
+ quetiapine      | quetiapine
+ quetiapine      | seroquel
+ rivaroxaban     | rivaroxaban
+ rivaroxaban     | xarelto
+ sabril          | sabril
+ saphris         | saphris
+ seroquel        | quetiapine
+ seroquel        | seroquel
+ spiriva         | spiriva
+ synthroid       | synthroid
+ tamiflu         | tamiflu
+ tysabri         | tysabri
+ valsartan       | valsartan
+ venlafaxine     | venlafaxine
+ victoza         | liraglutide
+ victoza         | victoza
+ vimpat          | vimpat
+ vyvanse         | vyvanse
+ xarelto         | rivaroxaban
+ xarelto         | xarelto
+ ziprasidone     | geodon
+ ziprasidone     | ziprasidone
+ zoledronic acid | zoledronic acid
+ zoledronic acid | zometa
+ zometa          | zoledronic acid
+ zometa          | zometa
+(78 rows)

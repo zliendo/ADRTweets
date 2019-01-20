@@ -1,0 +1,8 @@
+what are the related medication_names to 'eliquis'?
+(related generic or brand names, using the fda_drug_name as linkage)
+
+ medication_name | medication_name |     type     | fda_drug_name_link
+-----------------+-----------------+--------------+--------------------
+ eliquis         | apixaban        | generic_name | {ELIQUIS,APIXABAN}
+ eliquis         | eliquis         | brand_name   | {APIXABAN,ELIQUIS}
+(2 rows)

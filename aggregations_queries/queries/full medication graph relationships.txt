@@ -1,0 +1,102 @@
+
+Which medication_names are related to other medication_names via an fda_drug_name?
+indicate if the medication_name is being used as a brand or generic name.
+
+
+ medication_name | medication_name |     type     |  fda_drug_name_link
+-----------------+-----------------+--------------+-----------------------------
+ actonel         | actonel         | brand_name   | {ACTONEL,"RISEDRONATE SODIUM."}
+ albuterol       | albuterol       | brand_name   | {ALBUTEROL.,"ALBUTEROL SULFATE.","ALBUTEROL SULFATE.",ALBUTEROL.}
+ albuterol       | albuterol       | generic_name | {ALBUTEROL/00139501/,ALBUTEROL.,ALBUTEROL.,"ALBUTEROL SULFATE.","ALBUTEROL SULFATE."}
+ alendronate     | alendronate     | brand_name   | {"ALENDRONATE SODIUM.",ALENDRONATE}
+ alendronate     | fosamax         | brand_name   | {"ALENDRONATE SODIUM."}
+ apixaban        | apixaban        | generic_name | {APIXABAN,ELIQUIS}
+ apixaban        | eliquis         | brand_name   | {APIXABAN,ELIQUIS}
+ avelox          | avelox          | brand_name   | {AVELOX,"MOXIFLOXACIN HYDROCHLORIDE."}
+ baclofen        | baclofen        | brand_name   | {BACLOFEN.,BACLOFEN.}
+ baclofen        | baclofen        | generic_name | {BACLOFEN.,BACLOFEN.,LIORESAL,GABLOFEN}
+ boniva          | boniva          | brand_name   | {"IBANDRONATE SODIUM.",BONIVA}
+ bystolic        | bystolic        | brand_name   | {"NEBIVOLOL HYDROCHLORIDE",BYSTOLIC}
+ canagliflozin   | canagliflozin   | generic_name | {INVOKANA,CANAGLIFLOZIN}
+ canagliflozin   | invokana        | brand_name   | {INVOKANA,CANAGLIFLOZIN}
+ cipro           | cipro           | brand_name   | {CIPRO,CIPROFLOXACIN.,"CIPROFLOXACIN HYDROCHLORIDE."}
+ denosumab       | denosumab       | generic_name | {DENOSUMAB,PROLIA,XGEVA}
+ dronedarone     | dronedarone     | generic_name | {MULTAQ,DRONEDARONE}
+ duloxetine      | duloxetine      | brand_name   | {"DULOXETINE HYDROCHLORIDE.",DULOXETINE,"DULOXETINE HYDROCHLORIDE.",DULOXETINE}
+ duloxetine      | duloxetine      | generic_name | {DULOXETINE,"DULOXETINE HYDROCHLORIDE 60 MG","DULOXETINE HYDROCHLORIDE.",DULOXETINE,"DULOXETINE HYDROCHLORIDE."}
+ effient         | effient         | brand_name   | {EFFIENT,"PRASUGREL HYDROCHLORIDE"}
+ eliquis         | apixaban        | generic_name | {APIXABAN,ELIQUIS}
+ eliquis         | eliquis         | brand_name   | {APIXABAN,ELIQUIS}
+ fluoxetine      | fluoxetine      | brand_name   | {FLUOXETINE,"FLUOXETINE HYDROCHLORIDE.",FLUOXETINE}
+ fluoxetine      | fluoxetine      | generic_name | {FLUOXETINE,FLUOXETINE}
+ fosamax         | alendronate     | brand_name   | {"ALENDRONATE SODIUM."}
+ fosamax         | fosamax         | brand_name   | {"ALENDRONATE SODIUM.",FOSAMAX}
+ fycompa         | fycompa         | brand_name   | {FYCOMPA,PERAMPANEL}
+ geodon          | geodon          | brand_name   | {"ZIPRASIDONE HYDROCHLORIDE.",GEODON}
+ geodon          | ziprasidone     | brand_name   | {"ZIPRASIDONE HYDROCHLORIDE."}
+ invokana        | canagliflozin   | generic_name | {CANAGLIFLOZIN,INVOKANA}
+ invokana        | invokana        | brand_name   | {INVOKANA,CANAGLIFLOZIN}
+ januvia         | januvia         | brand_name   | {JANUVIA,SITAGLIPTIN}
+ lamictal        | lamictal        | brand_name   | {LAMICTAL,LAMOTRIGINE.}
+ lamictal        | lamotrigine     | brand_name   | {LAMOTRIGINE.}
+ lamictal        | lamotrigine     | generic_name | {LAMICTAL,LAMOTRIGINE.}
+ lamotrigine     | lamictal        | brand_name   | {LAMOTRIGINE.,LAMICTAL,LAMOTRIGINE.}
+ lamotrigine     | lamotrigine     | brand_name   | {LAMOTRIGINE.,LAMOTRIGINE.}
+ lamotrigine     | lamotrigine     | generic_name | {"LAMICTAL XR","LAMICTAL ODT",LAMICTAL,LAMOTRIGINE.,LAMOTRIGINE.}
+ latuda          | latuda          | brand_name   | {LATUDA}
+ levaquin        | levaquin        | brand_name   | {LEVAQUIN,LEVOFLOXACIN.}
+ linagliptin     | linagliptin     | generic_name | {TRADJENTA,LINAGLIPTIN}
+ liraglutide     | liraglutide     | generic_name | {VICTOZA,LIRAGLUTIDE}
+ liraglutide     | victoza         | brand_name   | {VICTOZA,LIRAGLUTIDE}
+ livalo          | livalo          | brand_name   | {LIVALO,"PITAVASTATIN CALCIUM"}
+ memantine       | memantine       | brand_name   | {MEMANTINE,MEMANTINE}
+ memantine       | memantine       | generic_name | {MEMANTINE,"MEMANTINE HYDROCHLORIDE",MEMANTINE}
+ memantine       | namenda         | brand_name   | {"MEMANTINE HYDROCHLORIDE"}
+ metoprolol      | metoprolol      | brand_name   | {METOPROLOL,"METOPROLOL TARTRATE.","METOPROLOL TARTRATE.",METOPROLOL}
+ metoprolol      | metoprolol      | generic_name | {"METOPROLOL TARTRATE.","METOPROLOL TARTRATE.",METOPROLOL,METOPROLOL}
+ namenda         | memantine       | generic_name | {"MEMANTINE HYDROCHLORIDE"}
+ namenda         | namenda         | brand_name   | {NAMENDA,"MEMANTINE HYDROCHLORIDE"}
+ nasonex         | nasonex         | brand_name   | {NASONEX}
+ nesina          | nesina          | brand_name   | {ALOGLIPTIN,NESINA}
+ nexium          | nexium          | brand_name   | {NEXIUM,"ESOMEPRAZOLE MAGNESIUM."}
+ ofloxacin       | ofloxacin       | brand_name   | {OFLOXACIN.,OFLOXACIN.}
+ ofloxacin       | ofloxacin       | generic_name | {OCUFLOX,OFLOXACIN.,OFLOXACIN.}
+ olanzapine      | olanzapine      | brand_name   | {OLANZAPINE.,OLANZAPINE.}
+ olanzapine      | olanzapine      | generic_name | {OLANZAPINE.,OLANZAPINE.}
+ onglyza         | onglyza         | brand_name   | {ONGLYZA,SAXAGLIPTIN}
+ paroxetine      | paroxetine      | brand_name   | {PAROXETINE,PAROXETINE,"PAROXETINE HYDROCHLORIDE."}
+ paroxetine      | paroxetine      | generic_name | {BRISDELLE,PAROXETINE,PAROXETINE}
+ pradaxa         | pradaxa         | brand_name   | {PRADAXA}
+ pregabalin      | pregabalin      | generic_name | {PREGABALIN.,(LYRICA),LYRICA}
+ quetiapine      | quetiapine      | brand_name   | {QUETIAPINE,QUETIAPINE}
+ quetiapine      | quetiapine      | generic_name | {QUETIAPINE,QUETIAPINE,"QUETIAPINE FUMARATE."}
+ quetiapine      | seroquel        | brand_name   | {"QUETIAPINE FUMARATE."}
+ rivaroxaban     | rivaroxaban     | generic_name | {XARELTO,RIVAROXABAN}
+ rivaroxaban     | xarelto         | brand_name   | {XARELTO,RIVAROXABAN}
+ sabril          | sabril          | brand_name   | {VIGABATRIN,SABRIL}
+ saphris         | saphris         | brand_name   | {SAPHRIS}
+ seroquel        | quetiapine      | generic_name | {"QUETIAPINE FUMARATE."}
+ seroquel        | seroquel        | brand_name   | {SEROQUEL,"QUETIAPINE FUMARATE."}
+ spiriva         | spiriva         | brand_name   | {SPIRIVA,(SPIRIVA),"TIOTROPIUM BROMIDE"}
+ synthroid       | synthroid       | brand_name   | {"LEVOTHYROXINE SODIUM.",SYNTHROID}
+ tamiflu         | tamiflu         | brand_name   | {"OSELTAMIVIR PHOSPHATE",TAMIFLU}
+ tysabri         | tysabri         | brand_name   | {NATALIZUMAB,TYSABRI}
+ valsartan       | valsartan       | brand_name   | {VALSARTAN.,VALSARTAN.}
+ valsartan       | valsartan       | generic_name | {DIOVAN,VALSARTAN.,VALSARTAN.}
+ venlafaxine     | venlafaxine     | brand_name   | {VENLAFAXINE,"VENLAFAXINE HYDROCHLORIDE.","VENLAFAXINE HYDROCHLORIDE.",VENLAFAXINE}
+ venlafaxine     | venlafaxine     | generic_name | {"VENLAFAXINE HYDROCHLORIDE.",VENLAFAXINE,VENLAFAXINE,"VENLAFAXINE HYDROCHLORIDE."}
+ victoza         | liraglutide     | generic_name | {LIRAGLUTIDE,VICTOZA}
+ victoza         | victoza         | brand_name   | {VICTOZA,LIRAGLUTIDE}
+ vimpat          | vimpat          | brand_name   | {LACOSAMIDE,VIMPAT}
+ vyvanse         | vyvanse         | brand_name   | {"LISDEXAMFETAMINE DIMESYLATE",VYVANSE}
+ xarelto         | rivaroxaban     | generic_name | {RIVAROXABAN,XARELTO}
+ xarelto         | xarelto         | brand_name   | {XARELTO,RIVAROXABAN}
+ ziprasidone     | geodon          | brand_name   | {"ZIPRASIDONE HYDROCHLORIDE."}
+ ziprasidone     | ziprasidone     | brand_name   | {"ZIPRASIDONE HYDROCHLORIDE.",ZIPRASIDONE}
+ zoledronic acid | zoledronic acid | brand_name   | {"(ZOLEDRONIC ACID)","(ZOLEDRONIC ACID)","ZOLEDRONIC ACID","ZOLEDRONIC ACID","ZOLEDRONIC ACID.","ZOLEDRONICACID."}
+ zoledronic acid | zoledronic acid | generic_name | {"ZOLEDRONIC ACID","ZOLEDRONIC ACID",RECLAST,"ZOLEDRONIC ACID.",ZOMETA,"(ZOLEDRONIC ACID)","ZOLEDRONIC ACID.","(ZOLEDRONIC ACID)"}
+ zoledronic acid | zometa          | brand_name   | {"ZOLEDRONIC ACID.","(ZOLEDRONIC ACID)","ZOLEDRONIC ACID","(ZOLEDRONIC ACID)","ZOLEDRONIC ACID.",ZOMETA,"ZOLEDRONIC ACID"}
+ zometa          | zoledronic acid | brand_name   | {"ZOLEDRONIC ACID.","ZOLEDRONIC ACID","(ZOLEDRONIC ACID)"}
+ zometa          | zoledronic acid | generic_name | {"ZOLEDRONIC ACID","ZOLEDRONIC ACID.","(ZOLEDRONIC ACID)",ZOMETA}
+ zometa          | zometa          | brand_name   | {ZOMETA,"ZOLEDRONIC ACID.","ZOLEDRONIC ACID","(ZOLEDRONIC ACID)"}
+(94 rows)

@@ -1,0 +1,394 @@
+Result from running 
+c = 100
+w = 3
+for c in [100,110,115,120,125,130,135,140,145,150,155,160]:
+    for w in [1,2,3,4]:
+        print 'c: %s, w: %s' %(c,w)
+        svm_classifier = classify(c,w)
+
+============================================================================
+
+c: 100, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.565217391304
+Recall for the ADR class .. 0.292134831461
+ADR F-score .. 0.385185185185
+c: 100, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.525641025641
+Recall for the ADR class .. 0.460674157303
+ADR F-score .. 0.491017964072
+c: 100, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.517647058824
+Recall for the ADR class .. 0.494382022472
+ADR F-score .. 0.505747126437
+c: 100, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.450980392157
+Recall for the ADR class .. 0.516853932584
+ADR F-score .. 0.48167539267
+c: 110, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.54347826087
+Recall for the ADR class .. 0.280898876404
+ADR F-score .. 0.37037037037
+c: 110, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.532467532468
+Recall for the ADR class .. 0.460674157303
+ADR F-score .. 0.493975903614
+c: 110, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.5
+Recall for the ADR class .. 0.494382022472
+ADR F-score .. 0.497175141243
+c: 110, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.463917525773
+Recall for the ADR class .. 0.505617977528
+ADR F-score .. 0.483870967742
+c: 115, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.566037735849
+Recall for the ADR class .. 0.337078651685
+ADR F-score .. 0.422535211268
+c: 115, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.525641025641
+Recall for the ADR class .. 0.460674157303
+ADR F-score .. 0.491017964072
+c: 115, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.494382022472
+Recall for the ADR class .. 0.494382022472
+ADR F-score .. 0.494382022472
+c: 115, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.463917525773
+Recall for the ADR class .. 0.505617977528
+ADR F-score .. 0.483870967742
+c: 120, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.566037735849
+Recall for the ADR class .. 0.337078651685
+ADR F-score .. 0.422535211268
+c: 120, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.525641025641
+Recall for the ADR class .. 0.460674157303
+ADR F-score .. 0.491017964072
+c: 120, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.494382022472
+Recall for the ADR class .. 0.494382022472
+ADR F-score .. 0.494382022472
+c: 120, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.457446808511
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.469945355191
+c: 125, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.586206896552
+Recall for the ADR class .. 0.38202247191
+ADR F-score .. 0.462585034014
+c: 125, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.532467532468
+Recall for the ADR class .. 0.460674157303
+ADR F-score .. 0.493975903614
+c: 125, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.494382022472
+Recall for the ADR class .. 0.494382022472
+ADR F-score .. 0.494382022472
+c: 125, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.457446808511
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.469945355191
+c: 130, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.593220338983
+Recall for the ADR class .. 0.393258426966
+ADR F-score .. 0.472972972973
+c: 130, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.519480519481
+Recall for the ADR class .. 0.449438202247
+ADR F-score .. 0.481927710843
+c: 130, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.5
+Recall for the ADR class .. 0.494382022472
+ADR F-score .. 0.497175141243
+c: 130, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.457446808511
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.469945355191
+c: 135, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.593220338983
+Recall for the ADR class .. 0.393258426966
+ADR F-score .. 0.472972972973
+c: 135, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.506329113924
+Recall for the ADR class .. 0.449438202247
+ADR F-score .. 0.47619047619
+c: 135, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.494382022472
+Recall for the ADR class .. 0.494382022472
+ADR F-score .. 0.494382022472
+c: 135, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.462365591398
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.472527472527
+c: 140, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.593220338983
+Recall for the ADR class .. 0.393258426966
+ADR F-score .. 0.472972972973
+c: 140, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.506329113924
+Recall for the ADR class .. 0.449438202247
+ADR F-score .. 0.47619047619
+c: 140, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.477777777778
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.480446927374
+c: 140, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.467391304348
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.475138121547
+c: 145, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.6
+Recall for the ADR class .. 0.404494382022
+ADR F-score .. 0.48322147651
+c: 145, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.512820512821
+Recall for the ADR class .. 0.449438202247
+ADR F-score .. 0.479041916168
+c: 145, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.466666666667
+Recall for the ADR class .. 0.47191011236
+ADR F-score .. 0.469273743017
+c: 145, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.466666666667
+Recall for the ADR class .. 0.47191011236
+ADR F-score .. 0.469273743017
+c: 150, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.590163934426
+Recall for the ADR class .. 0.404494382022
+ADR F-score .. 0.48
+c: 150, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.512820512821
+Recall for the ADR class .. 0.449438202247
+ADR F-score .. 0.479041916168
+c: 150, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.461538461538
+Recall for the ADR class .. 0.47191011236
+ADR F-score .. 0.466666666667
+c: 150, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.462365591398
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.472527472527
+c: 155, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.590163934426
+Recall for the ADR class .. 0.404494382022
+ADR F-score .. 0.48
+c: 155, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.506329113924
+Recall for the ADR class .. 0.449438202247
+ADR F-score .. 0.47619047619
+c: 155, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.460674157303
+Recall for the ADR class .. 0.460674157303
+ADR F-score .. 0.460674157303
+c: 155, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.457446808511
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.469945355191
+c: 160, w: 1
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.58064516129
+Recall for the ADR class .. 0.404494382022
+ADR F-score .. 0.476821192053
+c: 160, w: 2
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.5
+Recall for the ADR class .. 0.449438202247
+ADR F-score .. 0.473372781065
+c: 160, w: 3
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.460674157303
+Recall for the ADR class .. 0.460674157303
+ADR F-score .. 0.460674157303
+c: 160, w: 4
+
+C:\Users\bsc-default\Anaconda2\lib\site-packages\sklearn\svm\base.py:85: DeprecationWarning: gamma=0.0 has been deprecated in favor of gamma='auto' as of 0.17. Backward compatibility for gamma=0.0 will be removed in 0.18
+  DeprecationWarning)
+
+Precision for the ADR class .. 0.462365591398
+Recall for the ADR class .. 0.483146067416
+ADR F-score .. 0.472527472527

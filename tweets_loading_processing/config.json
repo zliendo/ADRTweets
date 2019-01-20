@@ -1,0 +1,6 @@
+{
+"dbdata": "dbname=w205_final  user=w205_final password=********** host=w**********.rds.amazonaws.com port=5432",
+"tweets_output_directory_name" : "../output_data/",
+"medication_list_file" : "../input_data/input_medication_list_short.txt",
+"classifier_version":"2" 
+}

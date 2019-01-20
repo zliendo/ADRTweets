@@ -1,0 +1,52 @@
+list of tweets adr reports by medication_name (including the medication-name 'siblings', 
+linked by an fda_drug_name) on January 2015 
+
+ t1_medication_name | t2_medication_name | qty
+--------------------+--------------------+-----
+ albuterol          | albuterol          |  11
+ apixaban           | apixaban           |   1
+ apixaban           | eliquis            |   2
+ avelox             | avelox             |   1
+ baclofen           | baclofen           |   2
+ canagliflozin      | canagliflozin      |   1
+ cipro              | cipro              |  15
+ effient            | effient            |   1
+ eliquis            | apixaban           |   1
+ eliquis            | eliquis            |   2
+ fluoxetine         | fluoxetine         |   8
+ geodon             | geodon             |   3
+ invokana           | canagliflozin      |   1
+ lamictal           | lamictal           |   3
+ lamictal           | lamotrigine        |   3
+ lamotrigine        | lamictal           |   3
+ lamotrigine        | lamotrigine        |   3
+ latuda             | latuda             |   2
+ levaquin           | levaquin           |   1
+ liraglutide        | liraglutide        |   6
+ liraglutide        | victoza            |   4
+ metoprolol         | metoprolol         |   1
+ nasonex            | nasonex            |   2
+ nexium             | nexium             |   5
+ olanzapine         | olanzapine         |   6
+ paroxetine         | paroxetine         |   7
+ pradaxa            | pradaxa            |   2
+ pregabalin         | pregabalin         |   5
+ quetiapine         | quetiapine         |  11
+ quetiapine         | seroquel           |  25
+ rivaroxaban        | xarelto            |  16
+ sabril             | sabril             |  12
+ seroquel           | quetiapine         |  11
+ seroquel           | seroquel           |  25
+ synthroid          | synthroid          |   5
+ tamiflu            | tamiflu            | 111
+ tysabri            | tysabri            |   2
+ valsartan          | valsartan          |   1
+ venlafaxine        | venlafaxine        |  12
+ victoza            | liraglutide        |   6
+ victoza            | victoza            |   4
+ vyvanse            | vyvanse            | 106
+ xarelto            | xarelto            |  16
+ ziprasidone        | geodon             |   3
+ zoledronic acid    | zometa             |   1
+ zometa             | zometa             |   1
+(46 rows)

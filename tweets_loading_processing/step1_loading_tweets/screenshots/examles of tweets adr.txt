@@ -1,0 +1,19 @@
+
+
+('zyprexa',
+  "catapres zyprexa...you'll gain 10lbs a month on them, you'll also think demonic forces are in control of your body."),
+
+('tamiflu', 'Tamiflu makes me nauseous '),
+
+('humira',
+  'I love humira for making my quality of life better but I get the worst headaches after the injections '),
+
+ ('lamictal',
+  "ohhhhh my f* i am dpdr'ing so bad rn which is a problem bc i just cranked up my lamictal 2 days ago & it shld be workin by now"),
+
+False-Positive:
+
+('tamiflu',
+  'When I cough, it feels like my eyes are gonna pop out of my head. Never been in so much pain. Work faster Tamiflu.'),
+
+('humira', Humira advert straight up saying that some people have developed cancer as a side effect. American advertising what even are you?'),

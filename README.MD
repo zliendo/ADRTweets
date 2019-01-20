@@ -3,7 +3,7 @@ This repository contains code I implemented to detect Tweets that are reporting 
    
 The code was implemented on December 2016, during my graduate studies at the Master of Information and Data Science (MIDS) program at UC Berkeley.   The class was: w205 - Architectural Components for Storing and Retrieving Data  
 
-This is the project report: 
+This is the project report: [W205FinalProjectPaper.pdf](W205FinalProjectPaper.pdf)
 
 I implemented the following modules:
 

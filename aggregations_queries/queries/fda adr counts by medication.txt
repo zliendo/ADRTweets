@@ -1,0 +1,106 @@
+for January 2015, how many adr events were reported to the FDA by medication-name?
+
+
+source | medication_name |         fda_drug_name          | count
+-------+-----------------+--------------------------------+-------
+FDA    | actonel         | ACTONEL                        |    14
+FDA    | actonel         | RISEDRONATE SODIUM.            |     3
+FDA    | albuterol       | ALBUTEROL.                     |   224
+FDA    | albuterol       | ALBUTEROL SULFATE.             |    36
+FDA    | alendronate     | ALENDRONATE                    |    39
+FDA    | apixaban        | APIXABAN                       |    19
+FDA    | apixaban        | ELIQUIS                        |   324
+FDA    | avelox          | AVELOX                         |    32
+FDA    | avelox          | MOXIFLOXACIN HYDROCHLORIDE.    |     1
+FDA    | baclofen        | BACLOFEN.                      |   316
+FDA    | baclofen        | GABLOFEN                       |     9
+FDA    | baclofen        | LIORESAL                       |    20
+FDA    | boniva          | BONIVA                         |    13
+FDA    | boniva          | IBANDRONATE SODIUM.            |     4
+FDA    | bystolic        | BYSTOLIC                       |    54
+FDA    | bystolic        | NEBIVOLOL HYDROCHLORIDE        |     1
+FDA    | cipro           | CIPRO                          |    50
+FDA    | cipro           | CIPROFLOXACIN HYDROCHLORIDE.   |     2
+FDA    | denosumab       | DENOSUMAB                      |     9
+FDA    | denosumab       | PROLIA                         |   358
+FDA    | denosumab       | XGEVA                          |   204
+FDA    | dronedarone     | DRONEDARONE                    |    15
+FDA    | dronedarone     | MULTAQ                         |    12
+FDA    | duloxetine      | DULOXETINE                     |    86
+FDA    | duloxetine      | DULOXETINE HYDROCHLORIDE.      |    56
+FDA    | duloxetine      | DULOXETINE HYDROCHLORIDE 60 MG |     1
+FDA    | effient         | EFFIENT                        |    41
+FDA    | effient         | PRASUGREL HYDROCHLORIDE        |     4
+FDA    | eliquis         | APIXABAN                       |    19
+FDA    | eliquis         | ELIQUIS                        |   324
+FDA    | fluoxetine      | FLUOXETINE                     |   322
+FDA    | fluoxetine      | FLUOXETINE HYDROCHLORIDE.      |     2
+FDA    | fosamax         | FOSAMAX                        |    44
+FDA    | fycompa         | FYCOMPA                        |    17
+FDA    | fycompa         | PERAMPANEL                     |     8
+FDA    | geodon          | GEODON                         |    23
+FDA    | geodon          | ZIPRASIDONE HYDROCHLORIDE.     |     1
+FDA    | lamictal        | LAMICTAL                       |   196
+FDA    | lamotrigine     | LAMICTAL                       |   196
+FDA    | lamotrigine     | LAMICTAL XR                    |    19
+FDA    | latuda          | LATUDA                         |    51
+FDA    | levaquin        | LEVAQUIN                       |    50
+FDA    | linagliptin     | LINAGLIPTIN                    |     4
+FDA    | linagliptin     | TRADJENTA                      |    28
+FDA    | liraglutide     | LIRAGLUTIDE                    |     2
+FDA    | liraglutide     | VICTOZA                        |    51
+FDA    | livalo          | LIVALO                         |    16
+FDA    | livalo          | PITAVASTATIN CALCIUM           |     2
+FDA    | memantine       | MEMANTINE                      |    48
+FDA    | memantine       | MEMANTINE HYDROCHLORIDE        |     1
+FDA    | metoprolol      | METOPROLOL                     |   680
+FDA    | namenda         | MEMANTINE HYDROCHLORIDE        |     1
+FDA    | namenda         | NAMENDA                        |    11
+FDA    | nasonex         | NASONEX                        |    64
+FDA    | nesina          | ALOGLIPTIN                     |     4
+FDA    | nesina          | NESINA                         |     2
+FDA    | nexium          | ESOMEPRAZOLE MAGNESIUM.        |     6
+FDA    | nexium          | NEXIUM                         |   342
+FDA    | ofloxacin       | OFLOXACIN.                     |     6
+FDA    | onglyza         | ONGLYZA                        |    41
+FDA    | onglyza         | SAXAGLIPTIN                    |     7
+FDA    | paroxetine      | BRISDELLE                      |   108
+FDA    | paroxetine      | PAROXETINE                     |   146
+FDA    | pradaxa         | PRADAXA                        |   228
+FDA    | pregabalin      | LYRICA                         |   907
+FDA    | pregabalin      | (LYRICA)                       |     1
+FDA    | pregabalin      | PREGABALIN.                    |    25
+FDA    | quetiapine      | QUETIAPINE                     |   312
+FDA    | quetiapine      | QUETIAPINE FUMARATE.           |    35
+FDA    | rivaroxaban     | RIVAROXABAN                    |    31
+FDA    | rivaroxaban     | XARELTO                        |   757
+FDA    | sabril          | SABRIL                         |   165
+FDA    | saphris         | SAPHRIS                        |     6
+FDA    | seroquel        | QUETIAPINE FUMARATE.           |    35
+FDA    | seroquel        | SEROQUEL                       |   168
+FDA    | spiriva         | SPIRIVA                        |   785
+FDA    | spiriva         | TIOTROPIUM BROMIDE             |     4
+FDA    | synthroid       | LEVOTHYROXINE SODIUM.          |    21
+FDA    | synthroid       | SYNTHROID                      |   254
+FDA    | tamiflu         | OSELTAMIVIR PHOSPHATE          |     2
+FDA    | tamiflu         | TAMIFLU                        |   114
+FDA    | tysabri         | TYSABRI                        |   675
+FDA    | valsartan       | DIOVAN                         |    99
+FDA    | valsartan       | VALSARTAN.                     |    88
+FDA    | victoza         | LIRAGLUTIDE                    |     2
+FDA    | victoza         | VICTOZA                        |    51
+FDA    | vimpat          | LACOSAMIDE                     |     1
+FDA    | vimpat          | VIMPAT                         |    60
+FDA    | vyvanse         | VYVANSE                        |   150
+FDA    | xarelto         | RIVAROXABAN                    |    31
+FDA    | xarelto         | XARELTO                        |   757
+FDA    | ziprasidone     | ZIPRASIDONE                    |     5
+FDA    | ziprasidone     | ZIPRASIDONE HYDROCHLORIDE.     |     1
+FDA    | zoledronic acid | RECLAST                        |     9
+FDA    | zoledronic acid | ZOLEDRONIC ACID                |    42
+FDA    | zoledronic acid | ZOLEDRONIC ACID.               |     2
+FDA    | zoledronic acid | ZOMETA                         |   120
+FDA    | zometa          | ZOLEDRONIC ACID                |    21
+FDA    | zometa          | ZOLEDRONIC ACID.               |     1
+FDA    | zometa          | ZOMETA                         |   120
+100 rows)
