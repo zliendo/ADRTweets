@@ -9,6 +9,7 @@ I implemented the following modules:
 
 | Module | Description |   
 |---|---|
+| Setup | Create database table and setup env </br> [tweets_loading_processing/step0_setup/](tweets_loading_processing/step0_setup/)|
 | Batch Ingestion | Collects historical tweets for a list of medications in a date range and store them in a database. Python programs access the search page at Twitter.com and pulls historic data by programatically executing searches and scraping web content (HTML pages returned). Twitter provides an API to collect tweets, but only few days old, we needed tweets from past years|   
 | Real Time Ingestion| Streaming was implemented using Apache Storm and Streamparse. Tweets captured are stored in the database.|   
 | Model and Classification | Not all tweets collected are reporting ADRs, they can be just mentioning a medication. Building ML classification model using open source code and training data provided by DIEGO lab at Arizona University.  Classifying ADRs tweets from the database using the ML model |   
